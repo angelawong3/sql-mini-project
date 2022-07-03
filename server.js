@@ -1,4 +1,5 @@
 const express = require("express");
+const mysql = require("mysql");
 
 // use port from heroku or 3001
 const PORT = process.env.PORT || 3001;
